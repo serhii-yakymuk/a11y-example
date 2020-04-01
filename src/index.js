@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import App from 'components/App';
+
 import * as serviceWorker from './serviceWorker';
+
+import './index.css';
 
 if (process.env.NODE_ENV === 'development') {
   const axe = require('react-axe');
