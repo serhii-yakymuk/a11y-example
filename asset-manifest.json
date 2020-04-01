@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/a11y-example/static/css/main.e74facf6.chunk.css",
-    "main.js": "/a11y-example/static/js/main.b38495c5.chunk.js",
-    "main.js.map": "/a11y-example/static/js/main.b38495c5.chunk.js.map",
+    "main.css": "/a11y-example/static/css/main.17cae4c4.chunk.css",
+    "main.js": "/a11y-example/static/js/main.535bc6c3.chunk.js",
+    "main.js.map": "/a11y-example/static/js/main.535bc6c3.chunk.js.map",
     "runtime-main.js": "/a11y-example/static/js/runtime-main.14880753.js",
     "runtime-main.js.map": "/a11y-example/static/js/runtime-main.14880753.js.map",
-    "static/js/2.a7a56a64.chunk.js": "/a11y-example/static/js/2.a7a56a64.chunk.js",
-    "static/js/2.a7a56a64.chunk.js.map": "/a11y-example/static/js/2.a7a56a64.chunk.js.map",
+    "static/js/2.dfe64808.chunk.js": "/a11y-example/static/js/2.dfe64808.chunk.js",
+    "static/js/2.dfe64808.chunk.js.map": "/a11y-example/static/js/2.dfe64808.chunk.js.map",
     "index.html": "/a11y-example/index.html",
-    "precache-manifest.d96377ae3cb966d44c042d17bfd24439.js": "/a11y-example/precache-manifest.d96377ae3cb966d44c042d17bfd24439.js",
+    "precache-manifest.fc83d2789aea19f688bc091cefb8779c.js": "/a11y-example/precache-manifest.fc83d2789aea19f688bc091cefb8779c.js",
     "service-worker.js": "/a11y-example/service-worker.js",
-    "static/css/main.e74facf6.chunk.css.map": "/a11y-example/static/css/main.e74facf6.chunk.css.map",
-    "static/js/2.a7a56a64.chunk.js.LICENSE.txt": "/a11y-example/static/js/2.a7a56a64.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/a11y-example/static/media/logo.ee7cd8ed.svg"
+    "static/css/main.17cae4c4.chunk.css.map": "/a11y-example/static/css/main.17cae4c4.chunk.css.map",
+    "static/js/2.dfe64808.chunk.js.LICENSE.txt": "/a11y-example/static/js/2.dfe64808.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/a11y-example/static/media/logo.ee7cd8ed.svg",
+    "static/media/social-facebook.svg": "/a11y-example/static/media/social-facebook.6c958daa.svg",
+    "static/media/social-linkedin.svg": "/a11y-example/static/media/social-linkedin.8e1d9053.svg",
+    "static/media/social-twitter.svg": "/a11y-example/static/media/social-twitter.d2e66c16.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.14880753.js",
-    "static/js/2.a7a56a64.chunk.js",
-    "static/css/main.e74facf6.chunk.css",
-    "static/js/main.b38495c5.chunk.js"
+    "static/js/2.dfe64808.chunk.js",
+    "static/css/main.17cae4c4.chunk.css",
+    "static/js/main.535bc6c3.chunk.js"
   ]
 }
