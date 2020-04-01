@@ -37,11 +37,6 @@ a.main-navigation__logo-link {
   margin-right: 100px;
 }
 
-a {
-  color: #d4d4d4;
-  text-decoration: underline;
-}
-
 .main-navigation__logo-image {
   height: 30px;
   pointer-events: none;

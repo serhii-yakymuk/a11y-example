@@ -7,6 +7,7 @@ import Links from 'routes/Links';
 import About from 'routes/About';
 
 import MainNavigation from 'components/MainNavigation';
+import SocialNavigation from 'components/SocialNavigation';
 
 import './App.css';
 
@@ -35,6 +36,11 @@ const App = () => {
         </article>
       </main>
       <footer className="app-footer">
+        <p>
+          © 2020 Serhii Yakymuk <br />
+          All Rights Reserved
+        </p>
+        <SocialNavigation />
       </footer>
     </BrowserRouter>
   );

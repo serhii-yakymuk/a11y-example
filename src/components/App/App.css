@@ -12,3 +12,15 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  max-width: 1000px;
+  margin: 20px auto 0;
+  border-top: 1px solid #d4d4d4;
+  color: #657190;
+  font-size: 12px;
+}
