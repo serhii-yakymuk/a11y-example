@@ -13,7 +13,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/a11y-example">
       <header className="app-header">
           <MainNavigation />
       </header>
