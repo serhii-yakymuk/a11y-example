@@ -1,0 +1,30 @@
+.html5-form {
+  margin-bottom: 40px;
+}
+.html5-form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.html5-form li {
+  margin: 10px 0;
+  line-height: 20px;
+}
+
+.html5-form li:first-child {
+  margin-top: 0;
+}
+
+.html5-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.html5-form legend {
+  padding: 0;
+  margin: 1em 0;
+  font-size: 18px;
+  font-weight: normal;
+}

@@ -41,6 +41,12 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

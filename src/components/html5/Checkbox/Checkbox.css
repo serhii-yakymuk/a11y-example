@@ -1,0 +1,9 @@
+.html5-checkbox {
+  margin-right: 5px;
+}
+
+.html5-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
