@@ -4,9 +4,9 @@ import './Guide.css';
 
 const Guide = () => {
   return (
-    <>
+    <div>
       <h1>Developer Guide</h1>
-    </>
+    </div>
   );
 }
 

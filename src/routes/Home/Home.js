@@ -7,11 +7,11 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <>
+    <div>
       <h1>Form Controls Examples</h1>
       <HTML5Form />
       <ARIAForm />
-    </>
+    </div>
   );
 }
 
