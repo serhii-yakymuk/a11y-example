@@ -6,7 +6,7 @@ import './Checkbox.css';
 export const KEY_CODE_SPACE = 32;
 
 const Checkbox = props => {
-  const { children, className, disabled, checked, onClick = () => {}, ...otherProps } = props;
+  const { children, className, disabled, checked, onChange = () => {}, ...otherProps } = props;
 
   const handleKeyDown = e => {
     if (e.keyCode === KEY_CODE_SPACE) {
@@ -17,14 +17,18 @@ const Checkbox = props => {
   const handleKeyUp = e => {
     if (e.keyCode === KEY_CODE_SPACE) {
       e.preventDefault();
-      onClick(e);
+      onChange(e);
     }
   };
 
   return (
     <div
       role="checkbox"
-      onClick={onClick}
+      onClick={e => {
+        if (!disabled) {
+          onChange(e);
+        }
+      }}
       onKeyUp={handleKeyUp}
       onKeyDown={handleKeyDown}
       aria-checked={checked}

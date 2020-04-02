@@ -37,7 +37,7 @@ const Form = () => {
             <Checkbox
               id="aria-sematic-html-checkbox"
               checked={formState.isSemanticHtmlUsed}
-              onClick={() => setState({ isSemanticHtmlUsed: !formState.isSemanticHtmlUsed })}
+              onChange={() => setState({ isSemanticHtmlUsed: !formState.isSemanticHtmlUsed })}
             >
               Semantic HTML
             </Checkbox>
@@ -46,7 +46,7 @@ const Form = () => {
             <Checkbox
               id="aria-aria-roles-checkbox"
               checked={formState.areAriaRolesUsed}
-              onClick={() => setState({ areAriaRolesUsed: !formState.areAriaRolesUsed })}
+              onChange={() => setState({ areAriaRolesUsed: !formState.areAriaRolesUsed })}
             >
               ARIA roles
             </Checkbox>
@@ -55,7 +55,7 @@ const Form = () => {
             <Checkbox
               id="aria-subtitles-checkbox"
               checked={formState.areSubtitlesUsed}
-              onClick={() => setState({ areSubtitlesUsed: !formState.areSubtitlesUsed })}
+              onChange={() => setState({ areSubtitlesUsed: !formState.areSubtitlesUsed })}
             >
               Subtitles for audio / video content
             </Checkbox>
@@ -64,7 +64,7 @@ const Form = () => {
             <Checkbox
               id="aria-colors-checkbox"
               checked={formState.areColorsUsed}
-              onClick={() => setState({ areColorsUsed: !formState.areColorsUsed })}
+              onChange={() => setState({ areColorsUsed: !formState.areColorsUsed })}
             >
               Checks for color contranst and color blindness
             </Checkbox>
