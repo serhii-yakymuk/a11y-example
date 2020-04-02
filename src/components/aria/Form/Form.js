@@ -2,15 +2,36 @@ import React, { useState } from 'react';
 
 import Button from 'components/aria/Button';
 import Checkbox from 'components/aria/Checkbox';
+import RadioGroup from 'components/aria/RadioGroup';
 
 import './Form.css';
+
+const RADIO_GROUP_ITEMS = [
+  {
+    id: 1,
+    label: 'None'
+  },
+  {
+    id: 2,
+    label: 'Have some knowledge of web layouts'
+  },
+  {
+    id: 3,
+    label: 'Junior Web Developer'
+  },
+  {
+    id: 4,
+    label: 'JavaScript Guru'
+  }
+]
 
 const Form = () => {
   const [formState, setFormState] = useState({
     isSemanticHtmlUsed: false,
     areAriaRolesUsed: false,
     areSubtitlesUsed: false,
-    areColorsUsed: false
+    areColorsUsed: false,
+    experience: null
   });
 
   const setState = data =>
@@ -30,6 +51,13 @@ const Form = () => {
       aria-labelledby="aria-form-label"
     >
       <h2 id="aria-form-label">WAI-ARIA Survey</h2>
+      <RadioGroup
+        items={RADIO_GROUP_ITEMS}
+        value ={formState.experience}
+        name="aria-experience-radio-group"
+        onChange={experience => setState({ experience })}
+        label="What is your current expirience with front end?"
+      />
       <div role="group" aria-labelledby="aria-techniques-label">
         <h3 id="aria-techniques-label">Which accessibility techniques have you used before?</h3>
         <ul>

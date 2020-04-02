@@ -2,15 +2,36 @@ import React, { useState } from 'react';
 
 import Button from 'components/html5/Button';
 import Checkbox from 'components/html5/Checkbox';
+import RadioGroup from 'components/html5/RadioGroup';
 
 import './Form.css';
+
+const RADIO_GROUP_ITEMS = [
+  {
+    id: 1,
+    label: 'None'
+  },
+  {
+    id: 2,
+    label: 'Have some knowledge of web layouts'
+  },
+  {
+    id: 3,
+    label: 'Junior Web Developer'
+  },
+  {
+    id: 4,
+    label: 'JavaScript Guru'
+  }
+]
 
 const Form = () => {
   const [formState, setFormState] = useState({
     isSemanticHtmlUsed: false,
     areAriaRolesUsed: false,
     areSubtitlesUsed: false,
-    areColorsUsed: false
+    areColorsUsed: false,
+    experience: null
   });
 
   const setState = data =>
@@ -32,6 +53,13 @@ const Form = () => {
       aria-labelledby="html5-form-label"
     >
       <h2 id="html5-form-label">HTML 5 Survey</h2>
+      <RadioGroup
+        items={RADIO_GROUP_ITEMS}
+        value ={formState.experience}
+        name="html5-experience-radio-group"
+        onChange={experience => setState({ experience })}
+        label="What is your current expirience with front end?"
+      />
       <fieldset>
         <legend>
           <h3>Which accessibility techniques have you used before?</h3>
