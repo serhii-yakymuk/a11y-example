@@ -14,11 +14,11 @@
   background-color: #3e4357;
 }
 
-.aria-button:hover:not(.aria-button--disabled) {
+.aria-button[aria-disabled="false"]:hover {
   background-color: #2f3342;
 }
 
-.aria-button.aria-button--disabled {
+.aria-button[aria-disabled="true"] {
   cursor: default;
   opacity: .57
 }

@@ -33,7 +33,7 @@ const Button = props => {
       onKeyDown={handleKeyDown}
       aria-disabled={disabled}
       tabIndex={disabled ? null : 0}
-      className={classnames('aria-button', disabled && 'aria-button--disabled', className)}
+      className={classnames('aria-button', className)}
       {...otherProps}
     >
       {children}
