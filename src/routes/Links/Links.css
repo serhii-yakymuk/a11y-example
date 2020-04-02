@@ -1,1 +1,14 @@
 
+.links-page li {
+  margin: 10px 0;
+}
+
+.links-page a {
+  text-decoration: underline;
+  transition: color .2s ease;
+  color: #3e4357;
+}
+
+.links-page a:hover {
+  color: #657190;
+}
