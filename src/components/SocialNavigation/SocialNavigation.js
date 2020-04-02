@@ -9,6 +9,8 @@ import './SocialNavigation.css';
 const SocialNavigation = () => {
   return (
     <nav
+      tabIndex={-1}
+      id="social-navigation"
       aria-label="Social Media"
       className="social-navigation"
     >

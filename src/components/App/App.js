@@ -6,6 +6,7 @@ import Guide from 'routes/Guide';
 import Links from 'routes/Links';
 import About from 'routes/About';
 
+import SkipLink from 'components/SkipLink';
 import MainNavigation from 'components/MainNavigation';
 import SocialNavigation from 'components/SocialNavigation';
 
@@ -15,6 +16,12 @@ const App = () => {
   return (
     <BrowserRouter basename="/a11y-example">
       <header className="app-header">
+          <SkipLink href="#content">
+            Skip Navigation
+          </SkipLink>
+          <SkipLink href="#social-navigation">
+            Skip to Social
+          </SkipLink>
           <MainNavigation />
       </header>
       <main className="app-content" id="content">
