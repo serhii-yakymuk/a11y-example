@@ -16,7 +16,7 @@ const Checkbox = props => {
         className={classnames('html5-checkbox', className)}
         {...otherProps}
       />
-      <label for={id}>
+      <label htmlFor={id}>
         {children}
       </label>
     </div>

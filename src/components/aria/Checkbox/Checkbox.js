@@ -29,7 +29,7 @@ const Checkbox = props => {
       onKeyDown={handleKeyDown}
       aria-checked={checked}
       aria-disabled={disabled}
-      tabindex={disabled ? null : 0}
+      tabIndex={disabled ? null : 0}
       className={classnames('aria-checkbox', className)}
       {...otherProps}
     >

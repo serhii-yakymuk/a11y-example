@@ -33,13 +33,15 @@ const Form = () => {
     >
       <h2 id="html5-form-label">HTML 5 Survey</h2>
       <fieldset>
-        <legend>Which accessibility techniques have you used before?</legend>
+        <legend>
+          <h3>Which accessibility techniques have you used before?</h3>
+        </legend>
         <ul>
           <li>
             <Checkbox
               id="html5-sematic-html-checkbox"
               checked={formState.isSemanticHtmlUsed}
-              onClick={() => setState({ isSemanticHtmlUsed: !formState.isSemanticHtmlUsed })}
+              onChange={() => setState({ isSemanticHtmlUsed: !formState.isSemanticHtmlUsed })}
             >
               Semantic HTML
             </Checkbox>
@@ -48,7 +50,7 @@ const Form = () => {
             <Checkbox
               id="html5-aria-roles-checkbox"
               checked={formState.areAriaRolesUsed}
-              onClick={() => setState({ areAriaRolesUsed: !formState.areAriaRolesUsed })}
+              onChange={() => setState({ areAriaRolesUsed: !formState.areAriaRolesUsed })}
             >
               ARIA roles
             </Checkbox>
@@ -57,7 +59,7 @@ const Form = () => {
             <Checkbox
               id="html5-subtitles-checkbox"
               checked={formState.areSubtitlesUsed}
-              onClick={() => setState({ areSubtitlesUsed: !formState.areSubtitlesUsed })}
+              onChange={() => setState({ areSubtitlesUsed: !formState.areSubtitlesUsed })}
             >
               Subtitles for audio / video content
             </Checkbox>
@@ -66,7 +68,7 @@ const Form = () => {
             <Checkbox
               id="html5-colors-checkbox"
               checked={formState.areColorsUsed}
-              onClick={() => setState({ areColorsUsed: !formState.areColorsUsed })}
+              onChange={() => setState({ areColorsUsed: !formState.areColorsUsed })}
             >
               Checks for color contranst and color blindness
             </Checkbox>
