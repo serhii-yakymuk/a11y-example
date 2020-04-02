@@ -14,7 +14,7 @@
   background-color: #3e4357;
 }
 
-.aria-button[aria-disabled="false"]:hover {
+.aria-button:not([aria-disabled="true"]):hover {
   background-color: #2f3342;
 }
 
