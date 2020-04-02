@@ -22,6 +22,7 @@ const SocialNavigation = () => {
             <img
               src={twitterLogo}
               alt="Twitter Logo"
+              aria-hidden="true"
               className="social-navigation__logo"
             />
             Twitter
@@ -36,6 +37,7 @@ const SocialNavigation = () => {
             <img
               src={facebookLogo}
               alt="Facebook Logo"
+              aria-hidden="true"
               className="social-navigation__logo"
             />
             Facebook
@@ -50,6 +52,7 @@ const SocialNavigation = () => {
             <img
               src={linkedinLogo}
               alt="Linkedin Logo"
+              aria-hidden="true"
               className="social-navigation__logo"
             />
             Linkedin

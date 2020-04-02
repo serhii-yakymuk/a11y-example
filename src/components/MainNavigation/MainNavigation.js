@@ -15,6 +15,7 @@ const MainNavigation = () => {
             <img
               src={logo}
               alt="React Logo"
+              aria-hidden="true"
               className="main-navigation__logo-image"
             />
             A11y Examples
