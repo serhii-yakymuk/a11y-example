@@ -46,7 +46,8 @@ const Form = () => {
   };
 
   return (
-    <form
+    <form // eslint-disable-line
+      role="form"
       method="get"
       onSubmit={onSubmit}
       className="html5-form"
@@ -58,7 +59,7 @@ const Form = () => {
         value ={formState.experience}
         name="html5-experience-radio-group"
         onChange={experience => setState({ experience })}
-        label="What is your current expirience with front end?"
+        label="What is your current experience with front end?"
       />
       <fieldset>
         <legend>

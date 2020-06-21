@@ -11,6 +11,7 @@ const Checkbox = props => {
   const handleKeyDown = e => {
     if (e.keyCode === KEY_CODE_SPACE) {
       e.preventDefault();
+      e.stopPropagation();
     }
   };
 
@@ -30,7 +31,7 @@ const Checkbox = props => {
         }
       }}
       onKeyUp={handleKeyUp}
-      onKeyDown={handleKeyDown}
+      onKeyDownCapture={handleKeyDown}
       aria-checked={checked}
       aria-disabled={disabled}
       tabIndex={disabled ? null : 0}

@@ -14,7 +14,7 @@ const Links = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.w3.org/TR/wai-aria-1.1/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.w3.org/TR/wai-aria-practices-1.1/" target="_blank" rel="noopener noreferrer">
             WAI-ARIA Authoring Practices
           </a>
         </li>

@@ -56,7 +56,7 @@ const Form = () => {
         value ={formState.experience}
         name="aria-experience-radio-group"
         onChange={experience => setState({ experience })}
-        label="What is your current expirience with front end?"
+        label="What is your current experience with front end?"
       />
       <div role="group" aria-labelledby="aria-techniques-label">
         <h3 id="aria-techniques-label">Which accessibility techniques have you used before?</h3>
