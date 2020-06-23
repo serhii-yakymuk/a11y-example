@@ -48,23 +48,20 @@ const RadioGroup = ({
       <h3 id={`${name}-label`}>
         {label}
       </h3>
-      <ul>
-        {items.map(({ label, id }, index) => (
-          <li key={id}>
-            <RadioButton
-              id={id}
-              name={name}
-              label={label}
-              onChange={onChange}
-              disabled={disabled}
-              buttonRefs={buttonRefs}
-              checked={value === id}
-              tabIndex={getTabIndex(value === id, index)}
-              onArrowChange={diff => onArrowChange(index, diff)}
-            />
-          </li>
-        ))}
-      </ul>
+      {items.map(({ label, id }, index) => (
+        <RadioButton
+          id={id}
+          key={id}
+          name={name}
+          label={label}
+          onChange={onChange}
+          disabled={disabled}
+          buttonRefs={buttonRefs}
+          checked={value === id}
+          tabIndex={getTabIndex(value === id, index)}
+          onArrowChange={diff => onArrowChange(index, diff)}
+        />
+      ))}
     </div>
   );
 };

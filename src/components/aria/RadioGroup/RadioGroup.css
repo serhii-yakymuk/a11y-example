@@ -1,18 +1,9 @@
-.aria-radio-group ul {
-  list-style: none;
-  margin: 0 0 20px;
-  padding: 0 10px;
-}
-
-.aria-radio-group li {
-  margin: 10px 0;
-  line-height: 20px;
-}
-
 .aria-radio-button {
-  display: inline-block;
+  display: flex;
   position: relative;
   padding-left: 25px;
+  margin: 10px 0 10px 10px;
+  line-height: 20px;
   cursor: default;
 }
 

@@ -3,6 +3,8 @@
 }
 
 .html5-radio-button-wrapper {
+  margin: 10px 0;
+  padding-left: 7px;
   display: flex;
   align-items: center;
 }

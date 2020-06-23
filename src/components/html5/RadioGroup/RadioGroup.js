@@ -22,20 +22,17 @@ const RadioGroup = ({
       <h3 id={`${name}-label`}>
         {label}
       </h3>
-      <ul>
-        {items.map(({ label, id }) => (
-          <li key={id}>
-            <RadioButton
-              id={id}
-              name={name}
-              label={label}
-              disabled={disabled}
-              checked={value === id}
-              onChange={() => onChange(id)}
-            />
-          </li>
-        ))}
-      </ul>
+      {items.map(({ label, id }) => (
+        <RadioButton
+          id={id}
+          key={id}
+          name={name}
+          label={label}
+          disabled={disabled}
+          checked={value === id}
+          onChange={() => onChange(id)}
+        />
+      ))}
     </div>
   );
 };
