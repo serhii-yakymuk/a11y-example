@@ -10,6 +10,7 @@ const Checkbox = props => {
     <div className={'html5-checkbox-wrapper'}>
       <input
         id={id}
+        name={id}
         type="checkbox"
         checked={checked}
         disabled={disabled}

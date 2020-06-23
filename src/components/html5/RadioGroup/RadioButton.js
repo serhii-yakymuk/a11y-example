@@ -11,8 +11,9 @@ const RadioButton = ({
   return (
     <div className='html5-radio-button-wrapper'>
       <input
-        type='radio'
+        value={id}
         name={name}
+        type='radio'
         checked={checked}
         aria-label={label}
         disabled={disabled}
