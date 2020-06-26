@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'wicg-inert';
 
 import App from 'components/App';
 
