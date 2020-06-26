@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import classnames from 'classnames';
 
 import './Button.css';
@@ -6,7 +6,7 @@ import './Button.css';
 export const KEY_CODE_ENTER = 13;
 export const KEY_CODE_SPACE = 32;
 
-const Button = props => {
+const Button = forwardRef((props, ref) => {
   const { children, className, disabled, onClick = () => {}, ...otherProps } = props;
 
   const handleKeyDown = e => {
@@ -27,6 +27,7 @@ const Button = props => {
 
   return (
     <div
+      ref={ref}
       role="button"
       onClick={onClick}
       onKeyUp={handleKeyUp}
@@ -39,6 +40,6 @@ const Button = props => {
       {children}
     </div>
   );
-};
+});
 
 export default Button;

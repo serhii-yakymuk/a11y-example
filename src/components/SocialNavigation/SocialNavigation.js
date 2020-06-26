@@ -27,7 +27,7 @@ const SocialNavigation = () => {
               aria-hidden="true"
               className="social-navigation__logo"
             />
-            Twitter
+            <span className='visuallyhidden'>Twitter</span>
           </a>
         </li>
         <li>
@@ -42,7 +42,7 @@ const SocialNavigation = () => {
               aria-hidden="true"
               className="social-navigation__logo"
             />
-            Facebook
+            <span className='visuallyhidden'>Facebook</span>
           </a>
         </li>
         <li>
@@ -57,7 +57,7 @@ const SocialNavigation = () => {
               role="presentation"
               className="social-navigation__logo"
             />
-            Linkedin
+            <span className='visuallyhidden'>Linkedin</span>
           </a>
         </li>
       </ul>

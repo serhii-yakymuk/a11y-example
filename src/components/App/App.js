@@ -25,7 +25,10 @@ const App = () => {
           <MainNavigation />
       </header>
       <main className="app-content" id="content">
-        <article className="app-content-article">
+        <article
+          className="app-content-article"
+          aria-labelledby="article-title"
+        >
           <Switch>
             <Route exact path="/">
               <Home />

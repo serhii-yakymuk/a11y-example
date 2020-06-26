@@ -1,0 +1,29 @@
+.chat-room {
+  display: flex;
+  border: 1px solid #c9c9c9;
+  height: 300px;
+  max-width: 500px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.chat-room-log {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+  max-height: 300px;
+  overflow: auto;
+  flex-grow: 1;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.chat-room-members {
+  margin: 0;
+  padding: 10px;
+  width: 100px;
+  list-style: none;
+  border-left: 1px solid #c9c9c9;
+}
+
