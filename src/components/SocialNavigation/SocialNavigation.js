@@ -52,9 +52,9 @@ const SocialNavigation = () => {
             href="https://www.linkedin.com/in/serhii-yakymuk-229339136/"
           >
             <img
+              alt=""
               src={linkedinLogo}
-              alt="Linkedin Logo"
-              aria-hidden="true"
+              role="presentation"
               className="social-navigation__logo"
             />
             Linkedin
