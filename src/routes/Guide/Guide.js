@@ -5,7 +5,7 @@ import './Guide.css';
 const Guide = () => {
   return (
     <div>
-      <h1>Developer Guide</h1>
+      <h1 id='article-title'>Developer Guide</h1>
     </div>
   );
 }

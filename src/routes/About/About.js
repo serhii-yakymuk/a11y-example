@@ -5,7 +5,7 @@ import './About.css';
 const About = () => {
   return (
     <div>
-      <h1>About Author</h1>
+      <h1 id='article-title'>About Author</h1>
       <p>
         My name is Serhii, I work as a Front End Developer at ELEKS, Lviv.
       </p>

@@ -5,7 +5,7 @@ import './Links.css';
 const Links = () => {
   return (
     <div className="links-page">
-      <h1>Useful Links</h1>
+      <h1 id='article-title'>Useful Links</h1>
       <h2>Documentation and Information</h2>
       <ul>
         <li>

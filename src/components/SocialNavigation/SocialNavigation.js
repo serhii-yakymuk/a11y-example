@@ -34,6 +34,7 @@ const SocialNavigation = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Facebook"
             href="https://www.facebook.com/profile.php?id=100013280199009"
           >
             <img
@@ -42,7 +43,6 @@ const SocialNavigation = () => {
               aria-hidden="true"
               className="social-navigation__logo"
             />
-            <span className='visuallyhidden'>Facebook</span>
           </a>
         </li>
         <li>
